@@ -21,7 +21,7 @@ integrations:
       target: eb_docker
       application_name: "sample-node-eb-docker-app"
       env_name: "docker-env"
-      bucket_name: "elasticbeanstalk-us-east-1-480971114143"
+      bucket_name: "elasticbeanstalk-eu-west-1-647042483434"
       region: "us-east-1"
       image_name: "harryi3t/sample_node_eb_docker"
       image_tag: "$BRANCH.$BUILD_NUMBER"
