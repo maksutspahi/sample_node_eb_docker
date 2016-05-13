@@ -42,11 +42,11 @@ integrations:
   #    image_tag: "$BRANCH.$BUILD_NUMBER"
 
     # # Docker Hub
-     - integrationName: "AWS DEV"
+     - integrationName: "AWS_DEV"
        type: aws
        target: eb_docker
-       application_name: "ebMax-env"
-       env_name: "shippable-demo-eb2"
+       application_name: "eb-max"
+       env_name: "ebMax-env"
        bucket_name: "elasticbeanstalk-eu-west-1-647042483434"
        region: "eu-west-1"
        image_name: "$DOCKER_HUB_URL/$REPO"
