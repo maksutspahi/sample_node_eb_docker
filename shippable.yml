@@ -19,7 +19,7 @@ integrations:
     - integrationName: "aws-test"
       type: aws
       target: eb_docker
-      application_name: "sample-node-eb-docker-app"
+      application_name: "eb-max"
       env_name: "docker-env"
       bucket_name: "elasticbeanstalk-eu-west-1-647042483434"
       region: "us-east-1"
@@ -32,7 +32,7 @@ integrations:
       target: eb_docker
       application_name: "sample-node-eb-docker-app"
       env_name: "ecr-env"
-      bucket_name: "elasticbeanstalk-us-east-1-480971114143"
+      bucket_name: "elasticbeanstalk-eu-west-1-647042483434"
       region: "us-east-1"
       image_name: "480971114143.dkr.ecr.us-east-1.amazonaws.com/sample_node_eb_docker"
       image_tag: "$BRANCH.$BUILD_NUMBER"
